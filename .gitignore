@@ -1,2 +1,5 @@
+# Ce fichier indiquera les 
+# documents à NE PAS suivre
+# A ne pas mettre sur github
 .git
 .env
