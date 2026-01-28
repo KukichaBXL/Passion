@@ -130,6 +130,7 @@ footer p {
   padding: 32px;
   margin: 48px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .box img {
@@ -170,10 +171,4 @@ footer p {
   color: #666;
   font-style: italic;
   font-size: 12px;
-}
-
-.box::after {
-  content: "";
-  display: table;
-  clear: both;
 }
