@@ -13,8 +13,10 @@
     <title>Histoire</title>
   </head>
   <body>
+    <!-- NAV -->
+
     <nav>
-      <div class="container-index">
+      <div class="contenu">
         <h1>L'Art de la Peinture</h1>
         <ul>
           <li><a href="index.html">Accueil</a></li>
@@ -25,16 +27,29 @@
       </div>
     </nav>
 
-    <section class="page-header-histoire">
-      <div class="container-index">
-        <h2>Histoire de la Peinture</h2>
-        <p>Un voyage à travers les grands mouvements artistiques</p>
-      </div>
+    <!-- HEADER -->
+
+    <section class="header">
+      <h2>Histoire de la Peinture</h2>
+      <p>Un voyage à travers les grands mouvements artistiques</p>
     </section>
 
-    <section class="box-histoire">
-      <div class="box">
-        <img src="/images/renaissance.jpg" alt="MichelAnge" />
+    <!--  HISTOIRE CARD -->
+
+    <main>
+      <div class="intro">
+        <p>
+          La peinture a évolué au fil des siècles, passant du réalisme classique
+          à l'abstraction contemporaine. Retracez cette fascinante évolution à
+          travers les grands mouvements artistiques.
+        </p>
+      </div>
+      <div class="histoire-card">
+        <img
+          src="/images/histoire/renaissance.jpg"
+          alt="MichelAnge"
+          title="« La Création du monde » de Michel-Ange"
+        />
         <h3>La Renaissance</h3>
         <p class="period">XIVe - XVIe siècle</p>
         <p>
@@ -49,8 +64,8 @@
         </p>
       </div>
 
-      <div class="box">
-        <img src="/images/baroque.jpg" alt="LeCaravage" />
+      <div class="histoire-card">
+        <img src="/images/histoire/baroque.jpg" alt="LeCaravage" title="« »" />
         <h3>Le Baroque</h3>
         <p class="period">XVIIe - XVII siècle</p>
         <p>
@@ -63,8 +78,12 @@
         <p class="artists">Artistes majeurs : Le Caravage, Rubens, ...</p>
       </div>
 
-      <div class="box">
-        <img src="/images/impressionnisme.jpg" alt="Degas-Danseuses" />
+      <div class="histoire-card">
+        <img
+          src="/images/histoire/impressionnisme.jpg"
+          alt="Degas-Danseuses"
+          title="« Danseuses bleues » de Edgar Degas"
+        />
         <h3>L'Impressionnisme</h3>
         <p class="period">1860 - 1890</p>
         <p>
@@ -72,13 +91,13 @@
           capturer l’instant présent. Les peintres privilégient les jeux de
           lumière, les couleurs vives et les touches visibles. Ce mouvement met
           l’accent sur les sensations et l’atmosphère plutôt que sur le détail
-          précis.
+          précis ou les contours.
         </p>
         <p class="artists">Artistes majeurs : Degas, Caillebote, Renoir,...</p>
       </div>
 
-      <div class="box">
-        <img src="/images/munch-cri.jpg" alt="Munch-cri" />
+      <div class="histoire-card">
+        <img src="/images/histoire/Expressionnisme.jpg" alt="Munch-cri" />
         <h3>L'Expressionnisme</h3>
         <p class="period">1905 - En cours</p>
         <p>
@@ -90,10 +109,12 @@
         </p>
         <p class="artists">Artistes majeurs : Munch, Gauguin,...</p>
       </div>
-    </section>
+    </main>
+
+    <!-- FOOTER -->
 
     <footer>
-      <div class="container-index">
+      <div>
         <p>&copy; 2026 Craeye Robin - Projet de formation Web Dev Passion</p>
       </div>
     </footer>

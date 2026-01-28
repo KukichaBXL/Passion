@@ -4,8 +4,14 @@
 
 [Markdown github](https://github.com/im-luka/markdown-cheatsheet)
 
-## Installation
+## Push Git
 
-- Liste
-- de
-- commandes
+- git status (voir fichiers modifiés q stop)
+- git diff (voir détail)
+- git add
+- git commit -m"Commentaire modification"
+- git push
+
+## Pull Git
+
+- git pull
