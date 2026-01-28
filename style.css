@@ -1,22 +1,184 @@
 body {
-  background-color: #f4edde;
   font-family: "Roboto", sans-serif;
+  color: #1a1a1a;
+  background-color: #f8f9fa;
+  line-height: 1.6;
 }
-
 nav {
-  text-align: center;
+  background-color: #2c3e50;
+  padding: 25px;
+  box-shadow: 0 2px 10px black;
+}
+
+nav .container-index {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #a4a9ab;
-  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header {
-  text-align: center;
-  background: linear-gradient();
-}
-
-h1 {
-  text-align: center;
-  padding: 50px;
+nav h1 {
   font-family: "Playfair Display", serif;
+  color: #e8d5b5;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c27d38;
+}
+
+.hero-index {
+  background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7));
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content-index h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin-bottom: 16px;
+  color: #e8d5b5;
+}
+
+.hero-content-index p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.container-index {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Introduction Section */
+.intro-index {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.intro-index h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  color: #2c3e50;
+  margin-bottom: 24px;
+}
+
+.intro-index p {
+  margin: 0 auto;
+  font-size: 17px;
+  color: #555;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #e8d5b5;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+.page-header-histoire {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.page-header-histoire h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #e8d5b5;
+  margin-bottom: 16px;
+}
+
+.page-header-histoire p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.boxes-histoire {
+  padding: 4rem 0;
+}
+
+.boxes-histoire {
+  background-color: white;
+  border: 2px solid #e8d5b5;
+  border-radius: 8px;
+  padding: 32px;
+  margin: 48px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  float: left;
+  width: 400px;
+  height: 250px;
+  background-color: #e8d5b5;
+  border-radius: 8px;
+  margin-right: 32px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.box h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 7px;
+}
+
+.box .period {
+  color: #c27d38;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.box p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.box .artists {
+  color: #666;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.box::after {
+  content: "";
+  display: table;
+  clear: both;
 }
