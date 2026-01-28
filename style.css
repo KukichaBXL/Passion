@@ -73,7 +73,6 @@ nav a:hover {
   padding: 0 30px;
 }
 
-/* Introduction Section */
 .intro-index {
   padding: 60px 0;
   text-align: center;
@@ -123,8 +122,6 @@ footer p {
   font-size: 20px;
   font-weight: 300;
 }
-
-
 
 .section-box {
   background-color: white;
