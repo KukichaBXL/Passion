@@ -124,11 +124,9 @@ footer p {
   font-weight: 300;
 }
 
-.boxes-histoire {
-  padding: 4rem 0;
-}
 
-.boxes-histoire {
+
+.section-box {
   background-color: white;
   border: 2px solid #e8d5b5;
   border-radius: 8px;
@@ -139,7 +137,7 @@ footer p {
 
 .box img {
   float: left;
-  width: 400px;
+  width: 600px;
   height: 250px;
   background-color: #e8d5b5;
   border-radius: 8px;
