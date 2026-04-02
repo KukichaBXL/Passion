@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Histoire</title>
+  </head>
+  <body>
+    <!-- NAV -->
+
+    <?php include "inc/menu.php" ?>
+
+    <!-- HEADER -->
+
+    <section class="header">
+      <h2>Histoire de la Peinture</h2>
+      <p>Un voyage à travers les grands mouvements artistiques</p>
+    </section>
+
+    <!--  HISTOIRE CARD -->
+
+    <main>
+      <div class="intro">
+        <p>
+          La peinture a évolué au fil des siècles, passant du réalisme classique
+          à l'abstraction contemporaine. Retracez cette fascinante évolution à
+          travers les grands mouvements artistiques.
+        </p>
+      </div>
+      <div class="histoire-card">
+        <img
+          src="/images/histoire/renaissance.jpg"
+          alt="MichelAnge"
+          title="« La Création du monde » de Michel-Ange"
+        />
+        <h3>La Renaissance</h3>
+        <p class="period">XIVe - XVIe siècle</p>
+        <p>
+          La Renaissance marque le renouveau des arts et des sciences en Europe.
+          Les artistes redécouvrent les principes de l'Antiquité et développent
+          de nouvelles techniques comme la perspective linéaire. C'est l'époque
+          des chefs-d'œuvre intemporels et d'une représentation plus réaliste de
+          la figure humaine.
+        </p>
+        <p class="artists">
+          Artistes majeurs : Michel-Ange, Léonard de Vinci, ...
+        </p>
+      </div>
+
+      <div class="histoire-card">
+        <img src="/images/histoire/baroque.jpg" alt="LeCaravage" title="« »" />
+        <h3>Le Baroque</h3>
+        <p class="period">XVIIe - XVII siècle</p>
+        <p>
+          Le Baroque se caractérise par une peinture expressive et théâtrale,
+          cherchant à émouvoir le spectateur. Les artistes jouent avec les
+          contrastes de lumière, le mouvement et la dramatisation des scènes.
+          C’est une période marquée par l’intensité des émotions et une mise en
+          scène spectaculaire des sujets.
+        </p>
+        <p class="artists">Artistes majeurs : Le Caravage, Rubens, ...</p>
+      </div>
+
+      <div class="histoire-card">
+        <img
+          src="/images/histoire/impressionnisme.jpg"
+          alt="Degas-Danseuses"
+          title="« Danseuses bleues » de Edgar Degas"
+        />
+        <h3>L'Impressionnisme</h3>
+        <p class="period">1860 - 1890</p>
+        <p>
+          L’Impressionnisme rompt avec les règles académiques et cherche à
+          capturer l’instant présent. Les peintres privilégient les jeux de
+          lumière, les couleurs vives et les touches visibles. Ce mouvement met
+          l’accent sur les sensations et l’atmosphère plutôt que sur le détail
+          précis ou les contours.
+        </p>
+        <p class="artists">Artistes majeurs : Degas, Caillebote, Renoir,...</p>
+      </div>
+
+      <div class="histoire-card">
+        <img src="/images/histoire/Expressionnisme.jpg" alt="Munch-cri" />
+        <h3>L'Expressionnisme</h3>
+        <p class="period">1905 - En cours</p>
+        <p>
+          L’Expressionnisme place l’émotion et la subjectivité au cœur de la
+          création artistique. Les formes sont déformées et les couleurs
+          exagérées pour traduire les sentiments intérieurs. Ce courant reflète
+          les tensions et les angoisses du monde moderne à travers une peinture
+          intense.
+        </p>
+        <p class="artists">Artistes majeurs : Munch, Gauguin,...</p>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <?php include "inc/footer.php"; ?>
+    </footer>
+  </body>
+</html>
