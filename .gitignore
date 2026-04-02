@@ -2,3 +2,4 @@
 # documents à NE PAS suivre
 # A ne pas mettre sur github
 .env
+datas/
