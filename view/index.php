@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passion : La peinture</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAV -->
+
+    <?php include "inc/menu.php"; ?>
+
+    <!-- HEADER -->
+
+    <section class="header">
+      <h2>L'Art de la Peinture</h2>
+      <p id="citation">
+        "Je rêve ma peinture, et ensuite je peins mon rêve." <br />
+        - "Vincent Van Gogh"
+      </p>
+    </section>
+
+    <!-- INTRO -->
+
+    <section class="intro">
+      <div>
+        <h3>Bienvenue dans l'univers de la peinture</h3>
+        <p>
+          La peinture est l'un des arts les plus anciens et les plus expressifs
+          de l'humanité. De la préhistoire à nos jours, elle a su capturer les
+          émotions, raconter des histoires et immortaliser la beauté du monde
+          qui nous entoure. Ce site explore les différentes facettes de cet art
+          magnifique : son histoire riche, ses techniques variées, et les
+          chefs-d'œuvre qui continuent de nous inspirer.
+        </p>
+
+        <br />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          quo aperiam possimus nulla illo maiores. Et cum animi voluptatum nobis
+          totam laudantium vel soluta deserunt. Voluptatibus deserunt eius
+          quibusdam soluta unde quia ab impedit sequi laboriosam temporibus
+          ullam mollitia sunt quidem eos, totam voluptatum facere omnis
+          laudantium natus nulla! Inventore praesentium non adipisci pariatur
+          aut expedita ex, repudiandae repellat beatae nesciunt accusamus culpa
+          minus eum quasi placeat ipsum provident quisquam doloremque sapiente
+          officia sed error velit et? Earum blanditiis explicabo at a placeat,
+          velit ad. Dolore voluptatibus harum alias quae rem recusandae nesciunt
+          laboriosam quod error quis vitae soluta, veniam quibusdam adipisci
+          suscipit ducimus voluptas perspiciatis a blanditiis, illum sequi?
+          Incidunt inventore eum numquam dolor quas aliquam corrupti odio at
+          eaque natus minima unde odit, facere voluptate iure voluptates. Porro
+          possimus qui eligendi. Temporibus, soluta! Quod quae eos dolore quasi
+          nisi blanditiis earum! Minus perferendis natus odit id possimus
+          doloribus?
+        </p>
+
+        <br />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+          pariatur iusto. Qui, delectus natus molestiae obcaecati recusandae
+          tempore alias voluptas non repellendus iusto odio! Nisi reprehenderit
+          autem officia, veniam non aperiam maiores sit nam quidem. At quasi,
+          nam totam repellat voluptatibus mollitia impedit magni accusamus minus
+          rerum, quae nemo fugiat tenetur. Sint quasi dolore facere saepe
+          temporibus in iure officia, vero delectus consectetur assumenda
+          quaerat aut enim ex, sed provident quisquam illum? Voluptatibus,
+          perspiciatis. Eveniet doloribus, vero praesentium quam id suscipit
+          quod expedita itaque repudiandae necessitatibus dolorem rerum illum
+          sunt dolorum ipsa beatae hic. Dicta, exercitationem! Exercitationem
+          obcaecati reprehenderit alias aspernatur non reiciendis unde. Libero
+          possimus pariatur, harum corrupti fuga dicta enim porro dolore,
+          tenetur architecto tempore mollitia deleniti. Dicta vel accusantium
+          autem! Veniam aliquid quod porro minima cumque fugiat iusto aperiam.
+          Vero id nobis assumenda voluptates numquam dicta, harum, placeat
+          quaerat voluptate molestias eos recusandae aperiam, iste animi quasi
+          consequuntur incidunt sunt reiciendis. Ad officiis, tenetur, debitis
+          reprehenderit illo voluptas hic quaerat modi earum consequatur vero
+          libero nisi suscipit atque harum deserunt dolores assumenda.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <?php include "inc/footer.php"; ?>
+    </footer>
+  </body>
+</html>
